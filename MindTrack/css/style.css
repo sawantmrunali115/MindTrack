@@ -43,6 +43,10 @@ body {
 
 .btn-success:hover {
     background-color: #202124;
-    border:#B2E3A4 solid 1px;
-    color: #B2E3A4;
+    border:#4285F4 solid 1px;
+    color: #4285F4;
+}
+
+.login:hover{
+  color: #fff;
 }
