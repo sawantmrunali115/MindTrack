@@ -1,0 +1,48 @@
+/* Titles = #748EFD
+Subtitles = #FFFFFF 
+background = #202124
+Paragraph texts = #6b7280 */
+
+
+
+body {
+    background-color: #202124;
+}
+
+/* Onboarding Section */
+
+.text-sec h1, .text-sec h5 {
+    color: #E8EAED;
+}
+
+.text-sec p {
+    color: #6b7280;
+}
+
+.text-sec span {
+    color: #4285F4;
+}
+
+.sz, .btn-success  {
+    font-size: 18px;
+    background-color: #4285F4;
+    border-color: #4285F4;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #202124;
+    border:#4285F4 solid 1px;
+    color: #4285F4;
+}
+
+.text-decoration-none{
+    color: #4285F4;
+}
+
+
+.btn-success:hover {
+    background-color: #202124;
+    border:#B2E3A4 solid 1px;
+    color: #B2E3A4;
+}
