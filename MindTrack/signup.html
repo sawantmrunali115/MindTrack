@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of Landing Page -->
+    <title>MindTrack</title>
+
+    <!-- Customize Favicon Link -->
+    <link rel="shortcut icon" href="favicons/task.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Customize CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Icons CDN Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+
+    <!-- Bootstrap Icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Onboarding Section Start Here -->
+    <section class="onboarding-section vh-100">
+        <div class="container-fluid h-100">
+            <div class="row h-100 align-items-center">
+
+                <!-- LEFT: Image Section (40%) -->
+                <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                    <a href="#">
+                        <img src="img/sign-in.png" alt="." class="img-fluid" style="max-height: 400px;">
+                    </a>
+                </div>
+
+                <!-- RIGHT: Text Section (60%) -->
+                <div class="col-lg-7 text-center px-5 text-sec">
+
+                    <!-- Logo -->
+                    <nav class="navbar navbar-expand-lg mb-4">
+                        <div class="container-fluid">
+                            <a class="navbar-brand d-flex align-items-center gap-2 mx-auto" href="index.html">
+                                <span class="material-symbols-rounded fs-1">playlist_add_check</span>
+                                <span class="fs-3 fw-bold">MindTrack</span>
+                            </a>
+                        </div>
+                    </nav>
+
+                    <!-- Name -->
+                    <div class="mb-3 text-start d-flex flex-column align-items-center">
+                        <label class="form-label text-secondary w-75">Name</label>
+                        <input type="text" class="form-control bg-dark text-white border-0 py-2 w-75"/>
+                    </div>
+                    
+                    <!-- Email Id -->
+                    <div class="mb-3 text-start d-flex flex-column align-items-center">
+                        <label class="form-label text-secondary w-75">Email Id</label>
+                        <input type="email" class="form-control bg-dark text-white border-0 py-2 w-75"/>
+                    </div>
+
+                    <!-- Username -->
+                    <div class="mb-3 text-start d-flex flex-column align-items-center">
+                        <label class="form-label text-secondary w-75">Username</label>
+                        <input type="text" class="form-control bg-dark text-white border-0 py-2 w-75"/>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="mb-4 text-start d-flex flex-column align-items-center position-relative">
+                        <label class="form-label text-secondary w-75">Password</label>
+
+                        <div class="position-relative w-75">
+                            <input type="password" class="form-control bg-dark text-white border-0 py-2 pe-5"/>
+                            <span class="position-absolute top-50 end-0 translate-middle-y me-3 text-secondary"
+                                style="cursor: pointer;">
+                                <i class="bi bi-eye-slash"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Sign In Button -->
+                    <button class="btn btn-success login w-75 py-2 fw-semibold mb-3">
+                        Sign Up
+                    </button>
+
+                    <p class="text-secondary ">
+                        Already have an account?
+                        <a href="signin.html" class="text-white fw-semibold text-decoration-none">Sign In</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS CDN Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- Customize JS Script Link -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
