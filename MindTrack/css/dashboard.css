@@ -1,12 +1,11 @@
 body {
-      background: #0f1418;
+      background: #202124;
       color: #e5e7eb;
       font-family: Inter, system-ui, sans-serif;
     }
 
     .navbar {
-      background: #0b0f14;
-      border-bottom: 1px solid #1f2933;
+      background: #202124;
     }
 
     .card {
@@ -51,6 +50,11 @@ body {
 
     .icon-btn.delete { color: #ef4444; }
     .icon-btn.done { color: #22c55e; }
+
+.text-sec span {
+    color: #4285F4;
+}
+
 
     footer {
       font-size: 12px;
