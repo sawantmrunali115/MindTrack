@@ -139,3 +139,25 @@ body {
   margin-top: 10px;
   display: inline-block;
 }
+
+
+/* Main Section */
+
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #202124;
+}
+
+.txt-white {
+  color: #ffff;
+  
+}
