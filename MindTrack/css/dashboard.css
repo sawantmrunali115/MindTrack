@@ -19,6 +19,14 @@ body {
         color: #fff;
     }
 
+    .btn-primary {
+      background-color: #4285F4;
+    }
+
+    .bg-inform {
+      background-color: #4285F4;
+    }
+
     .badge-high { background: #3b0d0d; color: #ff6b6b; }
     .badge-medium { background: #2a2410; color: #facc15; }
     .badge-low { background: #0f2a1a; color: #22c55e; }
@@ -122,6 +130,11 @@ body {
 
 /* Cards */
 .card {
+  background: linear-gradient(
+    180deg,
+    #2a2b2e 0%,
+    #26272a 100%
+  );
   border: none;
   border-radius: 14px;
   padding: 20px;
@@ -141,23 +154,24 @@ body {
 }
 
 
-/* Main Section */
 
-.dashboard-wrapper {
-  display: flex;
-  min-height: 100vh;
-}
+/* main section */
 
-.sidebar {
-  width: 240px;
-}
-
-.main-content {
-  flex: 1;
+.main-content{
   background-color: #202124;
 }
 
-.txt-white {
-  color: #ffff;
-  
+.main-subtitle {
+  color: #9ca3af;
+}
+
+.task-board {
+  border-radius: 14px;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-board:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
 }
